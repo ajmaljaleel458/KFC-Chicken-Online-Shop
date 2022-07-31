@@ -125,9 +125,7 @@ body {
 }
 
 @media only screen and (max-width:800px) {
-    body {
-        display: none;
-    }
+
 }
 
 .welcome-div {
@@ -188,4 +186,46 @@ body {
     border-radius: 5px;
     background-position: center;
     background-size: cover;
+}
+/* <!-- ----------------------- Work pending ----------------------- --> */
+.offers-details-section {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: var(--dark);
+    margin: 100px 0;
+    padding: 0 200px;
+}
+.strip-box-container2 {
+    width: 100px;
+    height: 50px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.strip {
+    height: 100%;
+    width: 20px;
+}
+.title-section {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+/* <!-- ----------------------- Work pending ----------------------- --> */
+
+.product-card-section {
+    width: 100%;
+    height: 300px;
+    padding: 10px 5px;
+    display: grid;
+    grid-template: 1fr / repeat(6, 1fr);
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.card-com {
+    background-color: #202124;
+    width: 250px;
+    border-radius: 10px;
 }
