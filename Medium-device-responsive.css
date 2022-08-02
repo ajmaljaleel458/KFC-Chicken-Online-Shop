@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px) {
+    .menus {
+        display: none;
+    }
+    .my-awesome {
+        display: grid;
+        width: 30px;
+        height: 40%;
+        flex-direction: row;
+        grid-template: 0.5fr 0.5fr 0.5fr / 1fr;
+        gap: 5px;
+    }
+    .bar-com {
+        background-color: var(--white);
+        border-radius: 50px;
+    }
+    .promobar {
+        width: 100%;
+        height: 50px;
+        background-color: #202124;
+        z-index: -1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+    .promo-btn-holder {
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .promo-text {
+        display: none;
+    }
+    .handburger-btn-holder {
+        height: 100%;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-content-for-md-devices {
+        color: var(--white);
+    }
+}
